@@ -1,0 +1,135 @@
+body {
+  background-color: rgb(232, 232, 232);
+  margin-left: 25px;
+}
+
+img#cover-image {
+  margin-left: -2%;
+  width: 102.5%;
+  margin-top: -0.6%;
+}
+
+img#kaart {
+  padding-top: 2%
+}
+
+a#huidig {
+  font-weight: bold;
+  background-color: Lightblue;
+  color: Floralwhite;
+}
+
+a.menu:hover {
+  color: red;
+  background-color: lightgray;
+}
+
+img {
+  border-style: ;
+}
+
+h1, h2, h3 {
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: left;
+  background-color: CadetBlue;
+  color: Floralwhite;
+  padding-left: 25px;
+  margin-left: -2%;
+  margin-right: -0.55%;
+}
+
+h3 {
+  color: CadetBlue;
+  background-color: Floralwhite;
+  border-bottom: dashed;
+  border-top: dashed;
+}
+
+h1 {
+  font-size: 300%;
+  margin-top: -0.25%
+}
+
+p {
+  color: black;
+  font-family: "Trebuchet MS";
+  background-color: rgba(255,255,240, 0.5);
+  padding: 0.2%;
+}
+
+h2.menu {
+  background-color: Floralwhite;
+  color: CadetBlue;
+  border-bottom: solid;
+  margin-top: -2%;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Floralwhite;
+  margin-top: -1.3%;
+  margin-left: -2%;
+  border-bottom: solid;
+  color: CadetBlue;
+  margin-right: -0.55%;
+}
+
+li.menu {
+  float: left;
+}
+
+ul.tvtas {
+  list-style-type: none;
+  margin-left: -2.5%;
+}
+
+li.tvtas {
+  font-family: sans-serif;
+  background-color: rgba(255,255,240, 0.5);
+}
+
+B {
+  font-size: 120%;
+  font-family: serif;
+}
+
+li a {
+  display: block;
+  color: CadetBlue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+li a:hover {
+  background-color: CadetBlue;
+  color: Floralwhite;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+table {
+  width: 50%;
+}
+
+th{
+  background-color: CadetBlue;
+  color: Floralwhite;
+  padding: 1.5%;
+  font-family: "Trebuchet MS";
+}
+
+tr:nth-child(even) {background-color: Floralwhite;}
+tr:nth-child(odd) {font-weight: bold;}
